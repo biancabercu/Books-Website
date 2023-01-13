@@ -1,0 +1,29 @@
+.tickets {
+    border-style: double;
+    width: 30rem;
+    background: url('../Images/bilet_camere.png') ;
+    
+    background-repeat: no-repeat;
+    background-size: 450px 200px;
+    background-position: center;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: small;
+    padding-top: 1%;
+    height: 12rem;
+    
+    
+}
+.ticket-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+    height: 50rem;
+}
+h1 {
+    padding-top: 3%;
+    text-align: center;
+    align-items: center;
+}

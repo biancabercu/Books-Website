@@ -1,0 +1,124 @@
+img {
+    width:200px;
+    height: 300px;
+}
+.movies {
+    border-style: inset;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+
+}
+.btn--outline_red {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid var(--red);
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+
+}
+.content {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3%;
+    height: 1000px;
+}
+.movie_description {
+    font-style: italic;
+
+}
+.movie-header {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 3%;
+    font-size: larger;
+   
+}
+.single-movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    height: 70rem;
+    
+}
+.movie-left {
+     
+    background: url('../Images/sticker-camera.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: center;
+    /* background-position: center; */
+    height: 600px;
+    /* background-color: rgb(105, 75, 105); */
+    width: 20rem;
+}
+.movie-details {
+   padding-left:3%;
+   padding-right: 10%;
+}
+.movie-right {
+    /* padding-top: 1%; */
+    /* padding-bottom: 5%;    */
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60rem;
+    align-items: center;
+}
+.movie-image-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-style: inset;
+    border-color:rgb(92, 34, 34);
+    padding-top: 0.5%;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30rem;
+    width: 40rem;
+    /* background-color: rgb(34, 178, 34); */
+    align-items: center;
+    text-align: center;
+    /* padding-right:15%;
+    padding-bottom: 2%; */
+    
+    
+}
+.cinema_locuri {
+    background: url('../Images/locuri_cinema.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position:right;
+    /* background-position: center; */
+    height: 600px;
+    /* background-color: rgb(105, 75, 105); */
+    width: 30rem;
+    /* background-color: firebrick; */
+    padding-top: 10%;
+
+}
+.form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+}
+.locuri-ocupate {
+   
+    padding-left: 20%;
+    padding-bottom: 2%;
+}

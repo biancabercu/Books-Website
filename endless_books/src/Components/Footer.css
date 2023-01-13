@@ -1,0 +1,84 @@
+.footer-container {
+    background-color: rgb(54, 5, 26);
+    padding:4 rem 0 2 rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+} 
+.Footer {
+   
+    /* position: fixed;  */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 170px;
+    background-color: rgb(99, 98, 98);
+    color: white;
+   
+   
+}
+.hfooter {
+  background-color: #0f0f0f;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+}
+.fcontent {
+/* background-color: rgb(58, 16, 16); */
+  background-image: url(./Images/books2.jpg);
+  background-size: 200px;  
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  color: #282c34;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+}
+.footer-subscription-heading {
+    align-content: center;
+    text-align: center;
+}
+.footer-links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    /* background-color: mediumaquamarine; */
+    
+  
+}
+.footer-link-items a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.footer-subscription-heading {
+    font-size: 90%;
+    
+}
+.input-area {
+    border: white;
+    border-style: double;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center; 
+    text-align: center;
+    height: 100px;
+}
+.socials-icons  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}

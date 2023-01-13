@@ -1,0 +1,66 @@
+#title{
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 4, 22);
+
+}
+.contact-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 20%;
+
+}
+.btn--outline_red {
+    background-color: transparent;
+    color: rgb(66, 25, 25);
+    border: 2px solid var(--red);
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+
+}
+label {
+    color: rgb(49, 9, 32);
+    font-size:150%;
+}
+textarea {
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.map-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 3%;
+    height: 900px;
+    color: rgb(65, 15, 15);
+  
+    
+}
+.adresa {
+    border-style: inset;
+    width: 200px;
+    height: 100px;
+}

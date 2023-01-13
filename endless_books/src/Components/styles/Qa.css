@@ -1,0 +1,8 @@
+.qa-content {
+    display: flex;
+    flex-direction: column;
+    height: 80rem;
+    width: 50rem;
+    align-items: center;
+    padding-top: 5%;
+}

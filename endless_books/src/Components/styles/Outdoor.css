@@ -1,0 +1,46 @@
+
+.outdoor-main {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+
+}
+.outdoor-left {
+    width: 1000px;
+    padding-top: 8%;
+    text-align: center;
+    align-items: center;
+    height: 700px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.outdoor-right {
+      
+    background: url('../Images/under_the_stars.jpg');
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: center;
+    /* background-position: center; */
+    height: 700px;
+    /* background-color: rgb(105, 75, 105); */
+    width: 50rem;
+    padding-right: 3%;
+}
+
+.outdoor-left h2 {
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    font-family: cursive;
+}
+#title_cinema {
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    font-family: cursive;
+}
+.buton-event {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+  }
